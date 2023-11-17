@@ -1,3 +1,8 @@
+# To run the file in your system:
+1. Install Tensorflow ,scipy , matplotlib and numpy libraries<br>
+2. Replace the 'base_image_path' and 'style_image_path' with the path of your images.<br>
+3. Load vgg19 with weights pre-trained on ImageNet dataset. Replace path of 'vgg19_weights' with the path of your dowloaded vgg_19 weights.<br>
+
 
 # Step followed to implement Art_Style_Transfer model are:
 1.Load and Preprocess Images:<br>
