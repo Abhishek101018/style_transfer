@@ -1,13 +1,13 @@
 
 # Step followed to implement Art_Style_Transfer model are:
 1.Load and Preprocess Images:
-Load the base image and style image.
-Preprocess the images to make them compatible with the VGG19 model.  
+Load the base image and style image.<br>
+Preprocess the images to make them compatible with the VGG19 model.<br> 
 
-2.Build the VGG19 Model:  
-Use the VGG19 model (pre-trained on ImageNet) as a feature extractor.
-Remove the fully connected layers at the top since we're only interested in convolutional feature maps.
-3.Define Style and Content Layers:  
+2.Build the VGG19 Model:<br>
+Use the VGG19 model (pre-trained on ImageNet) as a feature extractor.<br>
+Remove the fully connected layers at the top since we're only interested in convolutional feature maps.<br>
+3.Define Style and Content Layers:<br>
 Choose layers from the VGG19 model to extract style features and content features.
 Typically, style features are extracted from multiple convolutional layers, while content features are extracted from one specific layer.
 4.Compute Gram Matrix for Style:
