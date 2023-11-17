@@ -1,5 +1,4 @@
-# Art Style Transfer
-Python code for Art Style tranfer is in present in main_file.ipy
+
 # Step followed to implement Art_Style_Transfer model are:
 1.Load and Preprocess Images:
 
