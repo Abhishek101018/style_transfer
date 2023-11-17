@@ -32,8 +32,8 @@ Update the pixels of the generated image to minimize the loss.<br>
 7. Generate Stylized Image:<br>
 Run the optimization process to generate a stylized image that combines the content of the base image with the style of the style image.<br>
 
-Conclusion<br>
-Our model can be improved through icreasing the number of iteration, or by trying out a different syle transfer algorithm which could preseve the edges of the base image, or by trying out with different optimizer to minimize gradient and loss.<br>
+## Conclusion<br>
+Our model can be improved through increasing the number of iteration, or by trying out a different syle transfer algorithm which could preseve the edges of the base image, or by trying out with different optimizer to minimize gradient and loss.<br>
 
-References<br>
+## References<br>
 TensorFlow Documentation
